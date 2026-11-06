@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Tool caches and transient output
+.vite/
+coverage/
+*.log
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
