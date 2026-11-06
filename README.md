@@ -9,3 +9,10 @@ This folder is a standalone GitHub Pages publishing bundle. Its repository root 
 3. Check the Actions tab for the deployment. The workflow publishes the prebuilt `dist/` folder.
 
 The repository can remain private and the site can be public if your GitHub plan permits Pages for private repositories. GitHub Free requires a public repository for Pages. The published site is public, while the repository remains private.
+
+1. Repo should be public
+2. Go to Settings → Pages in your repository. Verify that: Build and deployment → Source is set to GitHub Actions
+
+
+Once deployed, GitHub Pages will be available at:
+https://kritpages.github.io/pocketledger/
